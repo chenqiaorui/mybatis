@@ -9,7 +9,7 @@
     -->
     <id column="id" jdbcType="BIGINT" property="id" />
     <result column="name" jdbcType="VARCHAR" property="name" />
-    <result column="first_letter" jdbcType="VARCHAR" property="firstLetter" />
+    <result column="first_lselectByExampleetter" jdbcType="VARCHAR" property="firstLetter" />
     <result column="big_pic" jdbcType="VARCHAR" property="bigPic" />
   </resultMap>
   <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.ricky.mall.mybatis.model.PmsBrand">
